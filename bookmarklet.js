@@ -1,7 +1,7 @@
 javascript:(function() {
 
 	var item = function(desc) {
-		$('input.new-task-text').val(desc);
+		$('textarea.checklist-new-item-text').val(desc);
 		$('input.js-add-checklist-item').click();
 	};
 
